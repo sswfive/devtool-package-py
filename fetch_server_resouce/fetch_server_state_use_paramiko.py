@@ -13,7 +13,7 @@ ips = [
 ]
 
 
-def get_cmd_client(ip, user="root", password="xxxx"):
+def get_cmd_client(ip, user="xxx", password="xxxx"):
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(hostname=ip, port=22, username=user, password=password)

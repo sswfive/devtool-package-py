@@ -101,9 +101,20 @@ version = "1.16.0"
 requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 summary = "Python 2 and 3 compatibility utilities"
 
+[[package]]
+name = "xlsxwriter"
+version = "3.0.9"
+requires_python = ">=3.6"
+summary = "A Python module for creating Excel XLSX files."
+
+[[package]]
+name = "xlwt"
+version = "1.3.0"
+summary = "Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform, with Python 2.6, 2.7, 3.3+"
+
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:951303e142ae00c02536b108463d4e7486acebcafd9ed7053d31bd9a0ce121bb"
+content_hash = "sha256:cc2b51edf369c6bfd718f7915ba12c23b7713195da285c9e2383b9f5eedcaef3"
 
 [metadata.files]
 "asn1crypto 1.5.1" = [
@@ -275,4 +286,12 @@ content_hash = "sha256:951303e142ae00c02536b108463d4e7486acebcafd9ed7053d31bd9a0
 "six 1.16.0" = [
     {url = "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
     {url = "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+]
+"xlsxwriter 3.0.9" = [
+    {url = "https://files.pythonhosted.org/packages/87/b9/bc9e4fe0c6a2656d0baa40aa324f9c11e07e5bcec51be9e90ee4deebb309/XlsxWriter-3.0.9-py3-none-any.whl", hash = "sha256:5eaaf3c6f791cba1dd1c3065147c35982180f693436093aabe5b7d6c16148e95"},
+    {url = "https://files.pythonhosted.org/packages/bf/dd/2a2ebee045f8e86b40468f3ca44dbcf86607f8282c74dfd9e87b00db12b4/XlsxWriter-3.0.9.tar.gz", hash = "sha256:7216d39a2075afac7a28cad81f6ac31b0b16d8976bf1b775577d157346f891dd"},
+]
+"xlwt 1.3.0" = [
+    {url = "https://files.pythonhosted.org/packages/06/97/56a6f56ce44578a69343449aa5a0d98eefe04085d69da539f3034e2cd5c1/xlwt-1.3.0.tar.gz", hash = "sha256:c59912717a9b28f1a3c2a98fd60741014b06b043936dcecbc113eaaada156c88"},
+    {url = "https://files.pythonhosted.org/packages/44/48/def306413b25c3d01753603b1a222a011b8621aed27cd7f89cbc27e6b0f4/xlwt-1.3.0-py2.py3-none-any.whl", hash = "sha256:a082260524678ba48a297d922cc385f58278b8aa68741596a87de01a9c628b2e"},
 ]
