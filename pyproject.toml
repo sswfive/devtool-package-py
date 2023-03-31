@@ -1,0 +1,19 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "ssw", email = "sswss5@aliyun.com"},
+]
+dependencies = [
+    "psutil>=5.9.4",
+    "pynvml>=11.5.0",
+    "pg8000>=1.29.4",
+    "paramiko>=3.1.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+
