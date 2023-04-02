@@ -127,7 +127,6 @@ class EtcdClient:
 
 
 etcd_cli = EtcdClient("127.0.0.1", 2379)
-# etcd_cli = EtcdClient("172.16.2.123", 2379)
 if __name__ == '__main__':
     # print(etcd_cli.exist_key("controller/999/999-0"))
     # print(etcd_cli.exist_key("/controller/999"))
