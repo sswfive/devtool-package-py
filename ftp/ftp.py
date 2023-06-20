@@ -151,7 +151,7 @@ class FtpHelper:
 
 if __name__ == "__main__":
     ftp = FtpHelper('10.16.10.128')
-    ftp.login('ft', 'password')
+    ftp.login('ft', 'encrypt')
     print(ftp.get_dic_size('del'))
     # ftp.get_file_dic()
     # print(ftp.ftp_host.stat('dir4'))
